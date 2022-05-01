@@ -1,12 +1,15 @@
-/* toobig.c-exceeds maximum int size on our system */
+ /* escape.c -- uses escape characters */
  #include <stdio.h>
  int main(void)
  {
-    int i = 2147483647;
-    unsigned int j = 4294967295;
- 
-    printf("%d %d %d\n", i, i+1, i+2);
-    printf("%u %u %u\n", j, j+1, j+2);
+    float salary;
+    
+    printf("\aEnter your desired monthly salary:");/* 1 */
+    printf(" $_______\b\b\b\b\b\b\b"); /* 2 */
+    scanf("%f", &salary);
+    /* 3 */
+    printf("\n\t$%.2f a month is $%.2f a year.", salary,salary * 12.0); 
+    printf("\rGee!\n"); /* 4 */
  
     return 0;
  }
