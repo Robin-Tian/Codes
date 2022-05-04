@@ -1,15 +1,12 @@
- /* escape.c -- uses escape characters */
+ /* prntval.c -- finding printf()'s return value */
  #include <stdio.h>
  int main(void)
  {
-    float salary;
-    
-    printf("\aEnter your desired monthly salary:");/* 1 */
-    printf(" $_______\b\b\b\b\b\b\b"); /* 2 */
-    scanf("%f", &salary);
-    /* 3 */
-    printf("\n\t$%.2f a month is $%.2f a year.", salary,salary * 12.0); 
-    printf("\rGee!\n"); /* 4 */
+    int bph2o = 212;
+    int rv;
+ 
+    rv = printf("%d F is water's boiling point.\n", bph2o);
+    printf("The printf() function printed %d characters.\n",rv);
  
     return 0;
  }

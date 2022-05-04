@@ -3,7 +3,7 @@
     {
       "MIMode": "gdb",
       "args": [],
-      "cwd": "${fileDirname}",
+      "cwd": "${C:\Users\tianz\OneDrive\Codes\Home\C_Primer_Plus}",
       "environment": [],
       "externalConsole": true,
       "internalConsoleOptions": "neverOpen",
