@@ -3,7 +3,7 @@
     {
       "MIMode": "gdb",
       "args": [],
-      "cwd": "${C:\Users\tianz\OneDrive\Codes\Home\C_Primer_Plus}",
+      "cwd": "${C:Users\tianzOneDriveCodesHomeC_Primer_Plus}",
       "environment": [],
       "externalConsole": true,
       "internalConsoleOptions": "neverOpen",
@@ -20,6 +20,27 @@
       ],
       "stopAtEntry": false,
       "type": "cppdbg"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:/Users/tianz/OneDrive/Codes/Home/C_Primer_Plus-1/Chapter_11",
+      "environment": [],
+      "program": "c:/Users/tianz/OneDrive/Codes/Home/C_Primer_Plus-1/Chapter_11/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "console": "integratedTerminal",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ],
   "version": "0.2.0"
